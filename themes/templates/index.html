@@ -4,9 +4,6 @@
 {% endblock %}
 {% block extrahead %}
   <style>
-    .navbar {
-      opacity: 0.8;
-    }
     body {
       margin-top: 0px;
     }
@@ -33,14 +30,20 @@
 {% block content %}
   <div class="jumbotron">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-3">
-          <p><img src="{{ SITEURL }}/theme/images/logos/logo-abertura.png" style="width: 250px; height: 250px;"></p>
+        <div class="row">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
+            <p>
+              <img src="{{ SITEURL }}/theme/images/logos/logo-abertura.png" style="width: 250px; height: 250px;">
+            </p>
+          </div>
+          <div class="col-lg-4"></div>
         </div>
-        <div class="col-lg-7" style="height: 250px; display: flex; align-items: center;">
-          <h2>SAPS</h2>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>This is where a brief description of SAPS should go</h2>
+          </div>
         </div>
-      </div>
     </div>   
   </div>
 {% endblock %}
