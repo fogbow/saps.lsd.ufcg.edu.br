@@ -1,14 +1,16 @@
-Title: Use It
-url: use-it
-save_as: use.html
-section: use
-index: 2
+Title: SAPS Service
+url: saps-service
+save_as: service.html
+section: service
+index: 1
 
-Use It
+Using SAPS service
 ==========
 
-How to work with SAPS?
+How to use the SAPS service?
 
 ------
 
-SAPS definition will be writen here.
+How to join SAPS?
+
+------

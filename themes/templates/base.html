@@ -39,14 +39,11 @@
                 <li {% for page in pages if page.section == 'understand' and page.save_as == output_file %}class="active"{% endfor %}>
                   <a href="{{ SITEURL }}/understand.html">Understand it</a>
                 </li>
-                <li {% for page in pages if page.section == 'install' and page.save_as == output_file %}class="active"{% endfor %}>
-                  <a href="{{ SITEURL }}/installing.html">Install it</a>
-                </li>
                 <li {% for page in pages if page.section == 'usage' and page.save_as == output_file %}class="active"{% endfor %}>
-                  <a href="{{ SITEURL }}/use.html">Use it</a>
+                  <a href="{{ SITEURL }}/service.html">Use it</a>
                 </li>
-                <!-- <li><a href="https://github.com/ufcg-lsd/sebal" target="_blank">Contribute to it</a></li>
-                <li><a href="http://www.fogbowcloud.org/contact.html">Contact us</a></li> -->
+                <li><a href="https://github.com/ufcg-lsd/sebal" target="_blank">Contribute to it</a></li>
+                <li><a href="http://dashboard.sebal.lsd.ufcg.edu.br:9194/" target="_blank">Dashboard</a></li>
               </ul>
             </div>
           </div>
@@ -55,12 +52,9 @@
             <div class="container">
               <div class="row">
                   <div class="col-lg-12">
-                    <ul class="list-inline">
-                      <li class="pull-right"><a href="#top">Back to top</a></li>
-                      <li><a href="https://github.com/ufcg-lsd/sebal" target="_blank">GitHub</a></li>
-                      <li><a href="http://dashboard.sebal.lsd.ufcg.edu.br:9194/" target="_blank">Dashboard</a></li>
-                      <li><a href="http://build.fogbowcloud.org" target="_blank">Build status</a></li>
-                    </ul>
+                      <ul class="list-inline">
+                          <li class="pull-right"><a href="#top">Back to top</a></li>
+                      </ul>
                     <p>Code released under the <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache License Version 2.0</a>.</p>
                     <p>Based on <a href="http://getbootstrap.com" target="_blank" rel="nofollow">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" target="_blank" rel="nofollow">Google</a>.</p>
                   </div>
