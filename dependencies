@@ -1,0 +1,5 @@
+#! /bin/bash
+
+sudo -H pip install pelican
+sudo -H pip install Jinja2
+sudo -H pip install Markdown
