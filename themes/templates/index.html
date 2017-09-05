@@ -1,0 +1,45 @@
+{% extends "base.html" %} {% set active_page = "index" %}
+{% block title %}
+    <title>SAPS</title>
+{% endblock %}
+{% block extrahead %}
+  <style>
+    .navbar {
+      opacity: 0.8;
+    }
+    body {
+      margin-top: 0px;
+    }
+    .jumbotron {
+      padding-top: 96px;
+      padding-bottom: 24px;
+      height: 100%;
+    }
+    .cloudy-background {
+      background: url('{{ SITEURL }}/theme/images/bg/fogbow-bg-low-opacity.jpg');
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .navbar-brand {
+      visibility: hidden;
+    }
+    .btn-sm {
+      font-size: 14px;
+    }
+  </style>
+{% endblock %}
+{% block content %}
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <p><img src="{{ SITEURL }}/theme/images/logos/logo-abertura.png" style="width: 250px; height: 250px;"></p>
+        </div>
+        <div class="col-lg-7" style="height: 250px; display: flex; align-items: center;">
+          <h2>SAPS</h2>
+        </div>
+      </div>
+    </div>   
+  </div>
+{% endblock %}

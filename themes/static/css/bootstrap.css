@@ -3747,13 +3747,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  padding: 12px 85px;
   font-size: 35px;
   line-height: 40px;
   height: 75px;
-  background: url('../img/logos/arrebol-logo.svg');
-  background-size: 100px;
+  width: 100px;
+  background: url('../images/logos/logo-topo.png');
+  background-size: 60px;
   background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 3px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -6143,39 +6145,26 @@ label,
 
 /*Arrebol theme*/
 footer {
-  height: 50px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
   padding: 20px;
   color: #FFF;
   font-size: 12px;
-  background: #e3a94b;
-  background: -moz-linear-gradient(left, #e3a94b 0%, #cc5b4f 100%);
-  background: -webkit-linear-gradient(left, #e3a94b 0%,#cc5b4f 100%);
-  background: linear-gradient(to right, #e3a94b 0%,#cc5b4f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3a94b', endColorstr='#cc5b4f',GradientType=1 );
-
-  a {
-    &:link,
-    &:visited {
-      color: #FFF;
-      font-weight: bold;
-    }
-  }
+  background: #3bb779;
+  background: -moz-linear-gradient(left, #3bb779 0%, #337d70 100%);
+  background: -webkit-linear-gradient(left, #3bb779 0%,#337d70 100%);
+  background: linear-gradient(to right, #3bb779 0%,#337d70 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bb779', endColorstr='#337d70',GradientType=1 );
 }
 
 .navbar-default {
   color: #FFF;
   font-size: 12px;
-  background: #e3a94b;
-  background: -moz-linear-gradient(left, #e3a94b 0%, #cc5b4f 100%);
-  background: -webkit-linear-gradient(left, #e3a94b 0%,#cc5b4f 100%);
-  background: linear-gradient(to right, #e3a94b 0%,#cc5b4f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3a94b', endColorstr='#cc5b4f',GradientType=1 );
-
-  a {
-    &:link,
-    &:visited {
-      color: #FFF;
-      font-weight: bold;
-    }
-  }
+  background: #3bb779;
+  background: -moz-linear-gradient(left, #3bb779 0%, #337d70 100%);
+  background: -webkit-linear-gradient(left, #3bb779 0%,#337d70 100%);
+  background: linear-gradient(to right, #3bb779 0%,#337d70 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bb779', endColorstr='#337d70',GradientType=1 );
 }

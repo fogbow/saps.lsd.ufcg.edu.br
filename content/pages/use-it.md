@@ -1,6 +1,6 @@
 Title: Use It
 url: use-it
-save_as: use-it.html
+save_as: use.html
 section: use
 index: 2
 

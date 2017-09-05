@@ -1,6 +1,6 @@
 Title: Understand It
 url: understand-it
-save_as: understand-it.html
+save_as: understand.html
 section: understand
 index: 0
 
