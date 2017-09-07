@@ -4,7 +4,7 @@ save_as: understand.html
 section: understand
 index: 0
 
-Problem (teste)
+Problem
 ==========
 
 Earth Observation Satellite (EOS) data makes possible the continuous monitoring of water and energy fluxes at the earth surface.
