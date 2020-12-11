@@ -1,2 +1,3 @@
-=======
-# saps.lsd.ufcg.edu.br
+# SAPS Website
+
+This repository maintains the main SAPS website
