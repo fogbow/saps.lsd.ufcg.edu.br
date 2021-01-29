@@ -17,6 +17,8 @@ SSH_PORT=22
 SSH_USER=root
 SSH_TARGET_DIR=/var/www
 
+PORT=80
+
 S3_BUCKET=my_s3_bucket
 
 CLOUDFILES_USERNAME=my_rackspace_username
