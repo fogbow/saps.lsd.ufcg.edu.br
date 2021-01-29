@@ -1,0 +1,10 @@
+#!/bin/bash
+
+SANDBOX=/home/ubuntu/saps.lsd.ufcg.edu.br
+
+if ! $SANDBOX; then
+  ps xau | grep python | awk '{print $2}' | xargs sudo kill
+  cd $SANDBOX
+fi
+
+nohup sudo make serve &
